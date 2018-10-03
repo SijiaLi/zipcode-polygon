@@ -74,7 +74,7 @@ final.sd <- rbind(result, subset)
 ##############################
 
 final.df <- merge(final.spa, final.sd)
-write.csv(final.df, file = "jurisdiction_mapping_table.csv")
+write.csv(final.df, file = "jurisdiction_mapping_table.csv", row.names = FALSE)
 
 
 
